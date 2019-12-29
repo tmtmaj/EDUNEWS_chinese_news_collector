@@ -1,0 +1,83 @@
+1576643328448	geckodriver	INFO	geckodriver 0.19.0
+1576643328517	geckodriver	INFO	Listening on 127.0.0.1:13064
+1576650125010	geckodriver	INFO	geckodriver 0.19.0
+1576650125096	geckodriver	INFO	Listening on 127.0.0.1:7948
+1576650127291	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\joo\\AppData\\Local\\Temp\\rust_mozprofile.1vPI81Hd2b9t"
+1576650129414	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1576650129415	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1576650129416	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1576650129417	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1576650129950	Marionette	TRACE	Received observer notification profile-after-change
+1576650130293	Marionette	TRACE	Received observer notification toplevel-window-ready
+1576650130719	Marionette	TRACE	Received observer notification command-line-startup
+1576650130720	Marionette	TRACE	Received observer notification nsPref:changed
+1576650130720	Marionette	DEBUG	Init aborted (running=false, enabled=true, finalUIStartup=false)
+1576650131282	Marionette	TRACE	Received observer notification toplevel-window-ready
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1576650135256	Marionette	TRACE	Received observer notification marionette-startup-requested
+1576650135257	Marionette	TRACE	Waiting until startup recorder finished recording startup scripts...
+1576650135278	Marionette	TRACE	All scripts recorded.
+1576650135278	Marionette	DEBUG	Setting recommended pref app.update.disabledForTesting to true
+1576650135279	Marionette	DEBUG	Setting recommended pref browser.contentblocking.introCount to 99
+1576650135279	Marionette	DEBUG	Setting recommended pref browser.tabs.remote.separatePrivilegedContentProcess to false
+1576650135279	Marionette	DEBUG	Setting recommended pref browser.tabs.unloadOnLowMemory to false
+1576650135280	Marionette	DEBUG	Setting recommended pref browser.urlbar.suggest.searches to false
+1576650135281	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1576650135281	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1576650135282	Marionette	DEBUG	Setting recommended pref dom.push.connection.enabled to false
+1576650135283	Marionette	DEBUG	Setting recommended pref privacy.trackingprotection.enabled to false
+1576650135283	Marionette	DEBUG	Setting recommended pref security.certerrors.mitm.priming.enabled to false
+1576650135284	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+1576650135389	Marionette	INFO	Listening on port 7956
+1576650135389	Marionette	DEBUG	Remote service is active
+1576650135640	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:7982
+1576650135641	Marionette	DEBUG	0 -> [0,1,"newSession",{"acceptInsecureCerts":true,"browserName":"firefox","capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}]
+1576650135641	Marionette	DEBUG	0 <- [1,1,{"error":"unknown command","message":"newSession","stacktrace":"WebDriverError@chrome://marionette/content/error.js:175: ... t@chrome://marionette/content/server.js:249:9\n_onJSONObjectReady/<@chrome://marionette/content/transport.js:501:20\n"},null]
+1576650135648	Marionette	DEBUG	Closed connection 0
+1576650204434	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
+1576650204446	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+1576650204452	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+[Parent 9988, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 3376, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child [Child 6392, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[[Parent 9988, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 6192, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[C1576650369289	Marionette	TRACE	Received observer notification xpcom-will-shutdown
+1576650369290	Marionette	DEBUG	Resetting recommended pref app.update.disabledForTesting
+1576650369291	Marionette	DEBUG	Resetting recommended pref browser.contentblocking.introCount
+1576650369292	Marionette	DEBUG	Resetting recommended pref browser.tabs.remote.separatePrivilegedContentProcess
+1576650369292	Marionette	DEBUG	Resetting recommended pref browser.tabs.unloadOnLowMemory
+1576650369292	Marionette	DEBUG	Resetting recommended pref browser.urlbar.suggest.searches
+1576650369294	Marionette	DEBUG	Resetting recommended pref datareporting.policy.dataSubmissionPolicyAccepted
+1576650369294	Marionette	DEBUG	Resetting recommended pref dom.disable_beforeunload
+1576650369295	Marionette	DEBUG	Resetting recommended pref dom.push.connection.enabled
+1576650369295	Marionette	DEBUG	Resetting recommended pref privacy.trackingprotection.enabled
+1576650369296	Marionette	DEBUG	Resetting recommended pref security.certerrors.mitm.priming.enabled
+1576650369296	Marionette	DEBUG	Resetting recommended pref toolkit.cosmeticAnimations.enabled
+1576650369298	Marionette	INFO	Stopped listening on port 7956
+1576650369298	Marionette	DEBUG	Remote service is inactive
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 12644,
+KLIB_SelfTest return : KLR_OK
+1576652479676	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\joo\\AppData\\Local\\Temp\\rust_mozprofileKcNGHP"
+1576652481896	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1576652481897	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1576652481897	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1576652481898	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1576652486037	Marionette	INFO	Listening on port 3311
+1576652486288	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 4212, Chrome_Ch[Parent 11492, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 10468, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 10468, Chrome_ChildThread] WARNING: pipe error:ildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+1576652601147	Marionette	INFO	Stopped listening on port 3311
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+
+KLIB_SelfTest return : KLR_OK
